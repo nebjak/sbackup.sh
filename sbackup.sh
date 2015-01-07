@@ -15,7 +15,7 @@ else
   backup_name=$(basename $1)
 fi
 
-backup_dir="~/$(date +%Y%m%d-%H%M%S)"
+backup_dir="~/sbackup/$(date +%Y%m%d-%H%M%S)"
 
 mkdir -p $backup_dir
 echo "Creating backup direcory at: $backup_dir"
